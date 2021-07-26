@@ -1,3 +1,3 @@
 # rb_120
 
-# This is the RB_120 course fron Launch School
+# This is the RB_120 course on Launch School
