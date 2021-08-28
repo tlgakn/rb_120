@@ -1,3 +1,3 @@
-# rb_120
+# RB120 - Object Oriented Programming
 
-# This is the RB_120 course on Launch School
+# Table of Contents
