@@ -4,7 +4,7 @@
 
 ### Table of Contents
 
-* Lesson 1
+* Lesson 1 https://github.com/tlgakn/rb_120/tree/main/lesson_1/oop_book_exercises
 * Lesson 2
 * Lesson 4
 * Lesson 5
