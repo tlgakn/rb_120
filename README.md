@@ -8,3 +8,4 @@
 * [Lesson 2](https://github.com/tlgakn/rb_120/tree/main/lesson_2/oo_rps)
 * [Lesson 4](https://github.com/tlgakn/rb_120/tree/main/lesson_4)
 * [Lesson 5](https://github.com/tlgakn/rb_120/tree/main/lesson_5)
+* [OOP_Exercises](https://github.com/tlgakn/rb_120/tree/main/oop_exercises)
