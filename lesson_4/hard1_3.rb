@@ -61,3 +61,6 @@ end
 
 class Catamaran < Seacraft
 end
+
+yacht = Catamaran.new(2, 2, 15, 250)
+p yacht.range
