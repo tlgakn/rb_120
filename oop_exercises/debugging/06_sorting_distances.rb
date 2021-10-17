@@ -139,11 +139,11 @@ class Length
 end
 
 Discussion
-On line 62, we invoke Array#sort. It sorts the elements based on comparisons done by the <=> method. Therefore, the objects in the collection we are sorting must have access to a <=> method. Since our Length class does not implement a <=> method, we get an error saying that the "comparison of Length with Length failed".
+On line 62, we invoke Array-sort. It sorts the elements based on comparisons done by the <=> method. Therefore, the objects in the collection we are sorting must have access to a <=> method. Since our Length class does not implement a <=> method, we get an error saying that the "comparison of Length with Length failed".
 
 In order to sort this array of Length objects, we need to implement a Length#<=> method, which we do.
 
-If you want, you can remove the ==, <, <=, >, and >= methods by adding include Comparable (see this link), as it implements all of the comparison methods based on <=>. However, you don't need to perform this step.
+If you want, you can remove the ==, <, <=, >, and >= methods by adding include Comparable (see this link), as it implements all of the comparison methods based on <=>. However, you don/t need to perform this step.
 
 Further Exploration
 Working with floating point numbers always involves imprecision. For example, you might observe the following:
@@ -152,7 +152,7 @@ Copy Code
 Length.new(10, :km).as_nautical_miles.as_kilometers == Length.new(10, :km) # => false
 This is because converting 10 kilometers to nautical miles and then to kilometers again yields a result of 10.0001.
 
-This is why tests of methods that involve floating point numbers often don't check equality but equality within a certain delta. For example, we could write a test like the following (assuming that we also implement arithmetic methods like Length#-):
+This is why tests of methods that involve floating point numbers often don/t check equality but equality within a certain delta. For example, we could write a test like the following (assuming that we also implement arithmetic methods like Length#-):
 
 Copy Code
 (Length.new(10, :km).as_nautical_miles.as_kilometers - Length.new(10, :km)).abs < 0.001 # => true

@@ -67,8 +67,6 @@ The bug in this code is extremely subtle. Think about what assignment returns in
 Hint #2
 Is #balance= returning what you the code suggests it is returning?
 
-
-
 Solution
 Copy Code
 class BankAccount
